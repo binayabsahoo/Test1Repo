@@ -1,0 +1,147 @@
+﻿
+
+/* GRID */
+
+table.grid
+{
+    border-bottom: solid 1px #EBEBEB;
+}
+
+table.grid tr th a { color: #000000; text-decoration: underline; }
+table.grid tr th a:hover { color: #D07200; text-decoration: underline; }
+
+table.grid tr.alt td
+{
+    background-color: #F5F5F5;
+}
+
+table.grid tr td a { text-decoration: none; }
+
+
+/*
+table.smallgrid td,
+table.smallgrid th,
+table.smallgrid span
+{
+    font-size: 8pt !important;
+}
+
+table.grid {
+	width:100%;
+	border: solid #28557C 1px;
+}
+table.grid tr th {
+	background:#28557C;
+	padding:5px 10px;
+	color:#ffffff;
+	text-align:left;
+	font-weight:bold;
+	letter-spacing:2px;
+	border-top:1px solid #060D14;
+	border-bottom:1px solid #060D14;
+	font-size: 10pt;
+	letter-spacing: normal;
+	white-space: nowrap !important;
+		
+}
+table.grid tr th a,
+table.grid tr th span
+{
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+table.grid tr th a:hover
+{
+    color: #FC8A3A;
+}
+
+table.grid tr:hover td,
+table.grid tr.alt:hover td
+{
+    background-color: #C0DCC0;
+}
+
+table.grid tr td 
+{
+    font-size: 8pt;
+	padding:5px 10px;
+	color:#333333;
+	letter-spacing:1px;
+	border:1px solid #dddddd;
+	font-size: 10pt;
+}
+table.grid tr.alt td {
+	background-color:#e7e7e7;
+}
+
+table.grid tr td a,
+table.grid tr td span
+{
+    color: #FC8A3A;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+table.grid tr.pager td
+{
+    border: none 0px;
+}
+
+table.grid tr.pager span
+{
+    color: #28557C;
+}
+
+table.grid tr td.head
+{
+	background:#28557C;
+	padding:5px 10px;
+	color:#ffffff;
+	text-align:left;
+	font-weight:bold;
+	letter-spacing:2px;
+	border:1px solid #060D14;
+	font-size: 8pt;
+	letter-spacing: normal;
+	white-space: nowrap !important;
+}
+*/
+
+.sortasc
+{
+	background-color: #28557C !important;
+    background: #28557C url(images/up.gif) no-repeat 90% center !important;
+}
+.sortdesc
+{
+	background-color: #28557C !important;
+    background: #28557C url(images/down.gif) no-repeat 90% center !important;
+}
+/* end GRID */
+
+span.error
+{
+    font-size: 15px;
+    color: Red;
+    clear: both;
+    display: block;
+}
+
+table.details td
+{
+    padding: 2px!important;
+    margin: 2px;
+}
+
+.modalBackground
+{
+    background-color: Black;
+    filter: alpha(opacity=10);
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    z-index: 10001;
+}
